@@ -71,7 +71,7 @@ body::-webkit-scrollbar-thumb {
     font-size: 4.5rem;
     color: rgb(41, 41, 101);
     font-weight: 800;
-    padding: 2rem 2rem;
+    padding-top: 2rem;
     text-align: center;
 }
 .about > p {
@@ -107,13 +107,15 @@ body::-webkit-scrollbar-thumb {
     }
     .about {
         margin: 0 auto;
+        width: 45rem;
+        height: fit-content;
     }
     .about > h1 {
         color: white;
     }
     .about > p {
         color: white;
-        padding: 1rem 4rem;
+        padding: 3rem 4rem;
     }
     .contact {
         display: flex;
@@ -127,11 +129,6 @@ body::-webkit-scrollbar-thumb {
     }
     .contact > a > svg {
         fill: white;
-    }
-}
-@media (max-width:600px) {
-    .about{
-        height: fit-content;
     }
 }
 @media (max-width: 450px) {
