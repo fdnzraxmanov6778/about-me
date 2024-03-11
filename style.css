@@ -129,6 +129,11 @@ body::-webkit-scrollbar-thumb {
         fill: white;
     }
 }
+@media (max-width:600px) {
+    .about{
+        height: fit-content;
+    }
+}
 @media (max-width: 450px) {
     * {
         font-size: 6px;
