@@ -80,7 +80,6 @@ body::-webkit-scrollbar-thumb {
     font-weight: 600;
     text-align: center;
     margin: 4rem 3rem;
-    border: 2px solid rgb(255, 255, 255);
 }
 .picture {
     width: fit-content;
@@ -116,7 +115,7 @@ body::-webkit-scrollbar-thumb {
     }
     .about > p {
         color: white;
-        padding: 4rem 3rem;
+        margin-bottom: 5rem;
     }
     .contact {
         display: flex;
